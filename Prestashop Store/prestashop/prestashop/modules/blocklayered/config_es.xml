@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blocklayered</name>
+	<displayName><![CDATA[Bloque navegaci&oacute;n por facetas]]></displayName>
+	<version><![CDATA[2.1.3]]></version>
+	<description><![CDATA[Muestra un bloque con los filtros de la navegaci&oacute;n por facetas]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

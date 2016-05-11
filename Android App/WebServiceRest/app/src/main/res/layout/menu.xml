@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:id="@+id/lol1"/>
+
+    <TextView
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tt_manage"
+        android:layout_below="@id/lol1"
+        android:id="@+id/lol2"
+        android:textSize="20dp"
+        android:textColor="#440404"
+        android:typeface="serif">
+    </TextView>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/lol2"
+        android:id="@+id/lol"/>
+
+    <ScrollView
+        android:id="@+id/scroll2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lol">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageCustomer"
+                android:id="@+id/bt_manageCustomer"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listCustomer"
+                android:id="@+id/bt_listCustomer"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageAddress"
+                android:id="@+id/bt_manageAddress"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listAddress"
+                android:id="@+id/bt_listAddresses"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageProdcts"
+                android:id="@+id/bt_manageProducts"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listProducts"
+                android:id="@+id/bt_listProducts"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageCategories"
+                android:id="@+id/bt_manageCategories"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listCategories"
+                android:id="@+id/bt_listCategories"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageProviders"
+                android:id="@+id/bt_manageProviders"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listProviders"
+                android:id="@+id/bt_listProviders"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_listOrders"
+                android:id="@+id/bt_listOrders"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageOrders"
+                android:id="@+id/bt_manageOrders"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_manageCoupon"
+                android:id="@+id/bt_manageCoupon"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_personal_data"
+                android:id="@+id/bt_personal_data"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_order_new"
+                android:id="@+id/bt_order_new"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_order_history"
+                android:id="@+id/bt_order_history"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_addresses"
+                android:id="@+id/bt_addresses"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_coupons_customer"
+                android:id="@+id/bt_coupons_customer"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_logout"
+                android:id="@+id/bt_logout"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>dashproducts</name>
+	<displayName><![CDATA[Panel de Productos]]></displayName>
+	<version><![CDATA[0.3.5]]></version>
+	<description><![CDATA[Agrega un bloque con una tabla de sus &uacute;ltimos pedidos y una clasificaci&oacute;n de sus productos]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[dashboard]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

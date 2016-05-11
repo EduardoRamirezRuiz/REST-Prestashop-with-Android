@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cronjobs</name>
+	<displayName><![CDATA[Gestor de tareas cron]]></displayName>
+	<version><![CDATA[1.3.2]]></version>
+	<description><![CDATA[Gestione todas sus tareas automatizadas desde una &uacute;nica interfaz.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

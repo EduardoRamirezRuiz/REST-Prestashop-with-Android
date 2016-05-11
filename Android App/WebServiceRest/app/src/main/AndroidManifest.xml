@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.itcelaya.webservicerest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".login_helper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".menu"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_login"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listCustomers"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listProducts"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listCategories"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listProviders"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listOrders"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listCartRules"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".coupons_manage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addresses_customer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".personal_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".agregar_address_customer"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".agregar_cart_rules_manage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".manage_suppliers"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".manage_categories"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_listAddress"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".manage_address"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".manage_products"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".call_newOrder"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".end_shopping"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

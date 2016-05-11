@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Tecno Store</string>
+<!--Titulos-->
+    <string name="tt_m_login">¿Qué tipo de usuario es?</string>
+    <string name="tt_manage">Administre sus clientes</string>
+    <string name="tt_manage_supplier">Administre sus proveedores</string>
+    <string name="tt_manage_categories">Administre sus categorías</string>
+    <string name="tt_listCustomer">Lista de clientes</string>
+    <string name="tt_listProducts">Lista de productos</string>
+    <string name="tt_listCategories">Lista de categorias</string>
+    <string name="tt_personalData">Actualice sus datos personales</string>
+    <string name="tt_add_address">Agregar nueva dirección</string>
+    <string name="tt_add_cart_rule">Agregar vale de descuento</string>
+    <string name="tt_add_order">Nueva compra</string>
+<!--Login-->
+    <string name="tx_mail">Ingesa tu email:</string>
+    <string name="tx_password">Ingresa tu contraseña:</string>
+    <string name="ph_mail">ejemplo@dominio.com</string>
+    <string name="ph_password">contraseña</string>
+    <string name="bt_sesion">Iniciar sesión</string>
+<!--menu login-->
+    <string name="bt_admin">Soy un administrador</string>
+    <string name="bt_customer">Soy un cliente</string>
+<!--menu-->
+    <string name="bt_manageCustomer">Administrar clientes</string>
+    <string name="bt_listCustomer">Lista de clientes</string>
+    <string name="bt_manageAddress">Administrar direcciones</string>
+    <string name="bt_listAddress">Lista de direcciones</string>
+    <string name="bt_manageProdcts">Administrar Productos</string>
+    <string name="bt_listProducts">Lista de productos</string>
+    <string name="bt_manageCategories">Administrar Categorias</string>
+    <string name="bt_listCategories">Lista de categorias</string>
+    <string name="bt_manageProviders">Administrar Proveedores</string>
+    <string name="bt_listProviders">Lista de proveedores</string>
+    <string name="bt_manageOrders">Nuevo pedido</string>
+    <string name="bt_listOrders">Lista de pedidos</string>
+    <string name="bt_manageCoupon">Vales de descuento</string>
+<!--customer menu-->
+    <string name="bt_personal_data">Datos personales</string>
+    <string name="bt_order_new">Nuevo pedido</string>
+    <string name="bt_order_history">Historial de pedidos</string>
+    <string name="bt_addresses">Direcciones</string>
+    <string name="bt_coupons_customer">Vales de descuento</string>
+<!--Logout-->
+    <string name="bt_logout">Cerrar Sesión</string>
+<!--Manage customers-->
+    <string name="bt_get">Buscar</string>
+    <string name="bt_put">Actualizar</string>
+    <string name="bt_post">Agregar</string>
+    <string name="bt_del">Eliminar</string>
+    <string name="bt_clear">Limpiar</string>
+    <string name="bt_cancel">Cancelar</string>
+
+    <string name="customerId">ID</string>
+    <string name="firstName">Nombre</string>
+    <string name="lastName">Apellido</string>
+    <string name="clastName">Apellido</string>
+    <string name="email">email</string>
+
+    <string name="ph_customerId">ID del cliente</string>
+    <string name="ph_firstName">Nombre</string>
+    <string name="ph_lastName">Apellido</string>
+    <string name="ph_email">ejemplo@dominio.com</string>
+
+    <string name="birth_date">Fecha de cumpleaños</string>
+    <string name="ph_birth_date">aaaa-mm-dd</string>
+    <string name="upd_password">¿Cambiar Password?</string>
+    <string name="ph_upd_password">(minimo 8 caracteres)</string>
+    <string name="help_password">Deje el campo password vacío si no desea actualizar</string>
+<!--row products-->
+    <string name="tx_description">Descripción</string>
+    <string name="tx_active">Activo</string>
+    <string name="tx_description_short">Descripción</string>
+    <string name="tx_price">Precio</string>
+<!--detail_order-->
+    <string name="tx_id_order">ID orden</string>
+    <string name="tx_id_customer">ID cliente</string>
+    <string name="tx_module">Modo</string>
+    <string name="tx_date_add">Pedido</string>
+    <string name="tx_date_upd">Actualización</string>
+    <string name="tx_total_paid">Total pagado</string>
+    <string name="tx_total_products">Productos</string>
+    <string name="tx_total_shipping">Envío</string>
+    <string name="tx_total_discounts">Descuento</string>
+    <string name="tx_products_order">Compras</string>
+<!--Detalles de producto-->
+    <string name="tx_available">Disponible</string>
+    <string name="tx_reference">Referencia</string>
+    <string name="tx_supplier">Proveedor</string>
+    <string name="tx_description_shortest">Descripción corta</string>
+    <string name="tx_description_large">Descripción</string>
+<!--Cart Rules-->
+    <string name="tx_for_you">Especial para ti</string>
+    <string name="tx_general">Generales</string>
+<!--add address-->
+    <string name="tx_id_fiscal">Identificación fiscal</string>
+    <string name="tx_address_name">Alias</string>
+    <string name="tx_company">Empresa</string>
+    <string name="tx_IVA">IVA</string>
+    <string name="tx_address">Dirección</string>
+    <string name="tx_cp">Código postal</string>
+    <string name="tx_city">Ciudad</string>
+    <string name="tx_country">País</string>
+    <string name="tx_state">Estado</string>
+    <string name="tx_phone">Teléfono</string>
+    <string name="tx_mobile_phone">Teléfono móvil</string>
+<!--Add cart rule-->
+    <string name="tx_code">Código</string>
+    <string name="tx_customer">Cliente</string>
+    <string name="tx_percent">Porcentaje</string>
+    <string name="tx_from">Desde</string>
+    <string name="tx_until">Hasta</string>
+<!--Another-->
+    <string name="tx_keywords">Palabras clave</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<!--Products-->
+    <string name="price_w_iva">Precio sin iva</string>
+    <string name="msg_not_exist">Mensaje de agotado</string>
+    <string name="supplier_name">Proveedor</string>
+<!--Buy Products-->
+    <string name="goto_pay">Ir a caja</string>
+    <string name="total">$0.0</string>
+    <string name="count">1</string>
+    <string name="add_car">Añadir</string>
+<!--spinner array-->
+    <string-array name="country_arrays">
+        <item>Selecciona</item>
+    </string-array>
+
+
+</resources>

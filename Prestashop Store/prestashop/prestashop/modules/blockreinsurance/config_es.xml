@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockreinsurance</name>
+	<displayName><![CDATA[Bloque&nbsp;de reaseguros]]></displayName>
+	<version><![CDATA[2.2.0]]></version>
+	<description><![CDATA[A&ntilde;adir&nbsp;un bloque&nbsp;para ver m&aacute;s&nbsp;informaciones&nbsp;para tranquilizar a&nbsp;sus clientes]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

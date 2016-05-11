@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockcategories</name>
+	<displayName><![CDATA[Bloque de categor&iacute;as]]></displayName>
+	<version><![CDATA[2.9.2]]></version>
+	<description><![CDATA[A&ntilde;dir un bloque que ofrezca categor&iacute;as de productos]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

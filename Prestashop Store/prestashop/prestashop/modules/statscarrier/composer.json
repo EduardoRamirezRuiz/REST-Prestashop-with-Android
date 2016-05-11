@@ -1,0 +1,19 @@
+{
+  "name": "prestashop/statscarrier",
+  "description": "PrestaShop module statscarrier",
+  "homepage": "https://github.com/PrestaShop/statscarrier",
+  "license": "AFL - Academic Free License (AFL 3.0)",
+  "authors": [
+    {
+      "name": "PrestaShop SA",
+      "email": "contact@prestashop.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

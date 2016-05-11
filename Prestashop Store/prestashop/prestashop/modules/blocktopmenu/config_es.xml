@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blocktopmenu</name>
+	<displayName><![CDATA[Men&uacute; horizontal&nbsp;superior]]></displayName>
+	<version><![CDATA[2.2.3]]></version>
+	<description><![CDATA[A&ntilde;adir&nbsp;un nuevo men&uacute;&nbsp;en la parte superior&nbsp;de su tienda.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

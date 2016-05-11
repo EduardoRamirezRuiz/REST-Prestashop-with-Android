@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:padding="10dp">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:id="@+id/lol1"/>
+
+    <TextView
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar compra"
+        android:layout_below="@id/lol1"
+        android:id="@+id/lol2"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#440404"
+        android:typeface="serif">
+    </TextView>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/lol2"
+        android:id="@+id/lmao1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lmao1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            style=""
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ph_customerId"
+                            android:layout_weight="1">
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/id_cust_paid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="ID de cliente"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/bn_address"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cargar direcciones"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_button"
+                            android:textColor="#fff"/>
+
+                        <Spinner
+                            android:id="@+id/spinner_addresses_paid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/country_arrays"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Total a pagar"
+                            android:layout_weight="1">
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/total_paid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="Nombre de cliente"
+                            android:editable="false"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/bn_canjear"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="retrieveSampleData"
+                            android:text="Canejar cupón"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_button"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/cart_rule_paid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="Vale de descuento"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="6dp">
+                        <TextView
+                            style=""
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Productos"
+                            android:layout_weight="1">
+                        </TextView>
+                    </LinearLayout>
+                    <ListView
+                        android:paddingTop="5dp"
+                        android:id="@+id/listProduct_paid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="false">
+                    </ListView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <Button
+                    android:id="@+id/bn_retrieve"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="putData"
+                    android:text="Confirmar pedido"
+                    android:background="@drawable/custom_button"
+                    android:textColor="#fff"/>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:padding="10dp">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tt_manage_categories"
+        android:textSize="20dp"
+        android:textColor="#440404"
+        android:typeface="serif">
+    </TextView>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customerId" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/supplier_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:layout_span="2"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/customerId"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstName" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/supplier_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:layout_span="2"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/ph_firstName"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tx_description" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/supplier_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:layout_span="2"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/tx_description"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tx_keywords" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/supplier_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_span="2"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/tx_keywords"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/bn_retrieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="retrieveSampleData"
+            android:text="@string/bt_get"
+            android:background="@drawable/custom_button"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/bn_put"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="putData"
+            android:text="@string/bt_put"
+            android:background="@drawable/custom_button"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/bn_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="postData"
+            android:text="@string/bt_post"
+            android:background="@drawable/custom_button"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/bn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="deleteData"
+            android:text="@string/bt_del"
+            android:background="@drawable/custom_button"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/bn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clearControls"
+            android:text="@string/bt_clear"
+            android:background="@drawable/custom_button"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"/>
+
+    </TableRow>
+
+</TableLayout>

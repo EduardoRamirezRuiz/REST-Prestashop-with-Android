@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:id="@+id/lol1"/>
+
+    <TextView
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tt_listCustomer"
+        android:layout_below="@id/lol1"
+        android:id="@+id/lol2"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#440404"
+        android:typeface="serif">
+    </TextView>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/lol2"
+        android:id="@+id/lol"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lol"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_for_you"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:background="@color/button_material_dark"
+                android:paddingLeft="5dp"/>
+            <ListView
+                android:layout_below="@id/tt1"
+                android:id="@+id/listCustomer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false">
+            </ListView>
+            <Space
+                android:layout_below="@id/listCustomer1"
+                android:id="@+id/space1"
+                android:layout_width="1dp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_below="@id/space1"
+                android:id="@+id/tt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_general"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:background="@color/button_material_dark"
+                android:paddingLeft="5dp"/>
+            <ListView
+                android:layout_below="@id/tt2"
+                android:id="@+id/listCustomer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false">
+            </ListView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

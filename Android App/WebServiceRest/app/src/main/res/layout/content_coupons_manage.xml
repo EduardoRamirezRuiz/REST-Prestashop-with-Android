@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/coupons_manage"
+    tools:context="mx.edu.itcelaya.webservicerest.coupons_manage">
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:id="@+id/lol1"/>
+
+    <TextView
+        style=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tt_listCustomer"
+        android:layout_below="@id/lol1"
+        android:id="@+id/lol2"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#440404"
+        android:typeface="serif">
+    </TextView>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/lol2"
+        android:id="@+id/lol"/>
+
+
+    <ListView
+        android:layout_below="@id/lol"
+        android:id="@+id/listCartRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false">
+    </ListView>
+
+</RelativeLayout>

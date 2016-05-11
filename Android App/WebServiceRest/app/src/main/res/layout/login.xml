@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tx_mail"
+        android:id="@+id/txtMail"
+        android:textColor="#440404"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ph_mail"
+        android:id="@+id/editMail"
+        android:layout_gravity="center_vertical"
+        android:inputType="textEmailAddress" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tx_password"
+        android:id="@+id/txtPassword"
+        android:textColor="#440404"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editPass"
+        android:hint="@string/ph_password"
+        android:layout_gravity="center_vertical" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_sesion"
+        android:id="@+id/buttonLogin"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"/>
+</LinearLayout>
